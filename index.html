@@ -4,10 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>portfolio</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
-<body>
-    <nav>
+<body class="body">
+    <nav class="mynav">
         <ul>
+            
             <li>
                 <a href="#Accueil">Accueil</a>
             </li>
@@ -23,16 +25,19 @@
             <li>
                 <a href="#Contact">Contact</a>
             </li>
-            
+        
         </ul>
     </nav>
+    <section class="img">
+        <img src="/WhatsApp Image 2024-12-20 à 20.53.26_c1ffdc7b.jpg" alt="profile">
+    </section>
     <section id="Accueil">
-        Bonjour.Bienvenue dans mon portfolio.
+        <h5>Bonjour.Bienvenue dans mon portfolio.
         Moi c'est Fatma Seck, etudiante en 1er année d'ondontologie à l'UCAD . Je fais  aussi une formation en developpement web chez GOMYCODE.
-        Je vous laisse decouvrir mon portfolio😊.
+        Je vous laisse decouvrir mon portfolio😊.</h5>
     </section>
     
-    <section id="Apropos">
+    <section id="Apropos" >
         <ol>
             <li>Prenom: Fatma</li>
             <li>Nom: SECK</li>
@@ -47,10 +52,10 @@
             </li>
         </ol>
     </section>
-    <section id="Travail">
+    <section class="Travail">
         <h2>MES TRAVEAUX</h2>
         <table>
-            <tr>
+            <tr class="table">
                 <th>Projet</th>
                 <th>Description</th>
             </tr>
@@ -59,7 +64,8 @@
                 <td>Ce projet consistais à faire un dépot local sur git d'un dossier puis le pousser sur github</td>
             </tr>
         </table>
-        <iframe scr="<iframe width="560" height="315" src="https://www.youtube.com/embed/oM2amcnVmzM?si=vsT7lqSufeGhiyxi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>"></iframe>
+        <h3>Voici un aperçu du projet</h3>
+        <iframe scr="iframe width="566 height="315" src="https://www.youtube.com/embed/oM2amcnVmzM?si=vsT7lqSufeGhiyxi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
     </section>
     <section id="Cv">
         <h2>MON CV</h2>
@@ -70,8 +76,12 @@
         </ul>
     </section>
     <section id="Contact">
-        <h2>CONTACTEZ-MOI</h2>
+        <h2>CONTACTEZ-MOI</h2> 
+        <section class="img2">
+            <img src="/WhatsApp Image 2024-12-20 à 22.44.04_f138c190.jpg" class="img-thumbnail" alt="profile">
+        </section>
         <form>
+            <h3>
             <label for="nom">Nom:</label>
             <input type="text" />
             <label for="email">Email:</label>
@@ -81,6 +91,7 @@
             <label for="message">Message:</label>
             <input type="textearea" name="message" id="message" />
             <button type="submit">Envoyer</button>
+        </h3>
         </form>                                                
     </section>
     <footer>
